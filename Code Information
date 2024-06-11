@@ -4,5 +4,5 @@ Project16:  Fetal health classification
 
 Code execution order:
 
-Preprocessing.py and Model_evaluation.py should be run before running the ML models. 
+Preprocessing.py and Model_evaluation.py are needed for the ML models codes 
 
