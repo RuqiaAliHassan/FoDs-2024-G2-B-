@@ -145,7 +145,7 @@ plt.show()
 #countplots for categorical features
 fig, axes = plt.subplots(1, len(cat_cols), figsize=(5*len(cat_cols), 5))
 for i, col in enumerate(cat_cols):
-    sns.countplot(x=col, data=data, ax=axes[i])
+    sns.countplot(x=col, data=data, ax=axes[i], palette="colorblind")
     axes[i].set_title(f'Countplot for {col}')
     for p in axes[i].patches:
         axes[i].annotate(format(p.get_height(), '.0f'), (p.get_x() + p.get_width() / 2., p.get_height()),
