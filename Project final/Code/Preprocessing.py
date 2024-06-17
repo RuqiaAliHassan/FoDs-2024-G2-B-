@@ -366,6 +366,7 @@ for p in ax.patches:
 plt.title('Distribution of Fetal Health Categories After SMOTE-training data')
 plt.xlabel('Fetal Health Category')
 plt.ylabel('Count')
+plt.savefig("../output/distribution_balanced_data.png")
 plt.show()
 
 #all categories have same amount 1309
